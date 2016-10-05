@@ -57,7 +57,7 @@ def output_subtree(dirContents, path, depth, isParentEnd, string):
                 temp = string + "│   "
 
             # Recurse, call on the child directory
-            output_subtree(os.listdir(newPath), newPath, depth + 1, isParentEnd, temp)
+            output_subtree(sorted(os.listdir(newPath)), newPath, depth + 1, isParentEnd, temp)
 
 
 if __name__ == '__main__':
