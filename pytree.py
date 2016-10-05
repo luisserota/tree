@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Luis Serota 2016 
+# Luis Serota 2016
 import subprocess
 import sys
 import os
